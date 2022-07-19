@@ -1,0 +1,57 @@
+/***********FONTS**********/
+/***********COLORS*********/
+/***********WIDTHS**********/
+body {
+  width: 1440px;
+  font-family: "Montserrat", sans-serif;
+  font-size: font-size-default;
+  background-color: white;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 69px;
+  width: 100%;
+}
+
+.navmenu {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 352px;
+}
+
+.btn {
+  padding: 13px 26px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #FF9900;
+  color: white;
+  outline: none;
+  border: none;
+}
+.btn-sign-in {
+  background-color: transparent;
+  color: #2F281E;
+  border: 1px solid #BCD0E5;
+}
+
+.overview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.superpowers {
+  height: 495px;
+}
+
+/*# sourceMappingURL=style.css.map */

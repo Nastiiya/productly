@@ -1,0 +1,72 @@
+/***********FONTS**********/
+$font-primary: 'Montserrat', sans-serif;
+$font-size-default: 16px;
+$font-size-title: 32px;
+
+/***********COLORS*********/
+$primary: #2F281E;
+$secondary: #FF9900;
+$white-default: #FFFF;
+$border-color: #BCD0E5;
+
+
+/***********WIDTHS**********/
+$width: 1440px;
+$content-width: 1200px;
+
+body{
+  width: $width;
+  font-family: $font-primary ;
+  font-size: font-size-default;
+  background-color: $white-default;
+}
+
+.container{
+  width: $content-width;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 69px;
+  width: 100%;
+}
+.navmenu{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 352px;
+}
+
+.btn {
+  padding: 13px 26px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: $secondary;
+  color: $white-default;
+  outline: none;
+  border: none;
+
+  &-sign-in{
+    background-color: transparent;
+    color: $primary;
+    border: 1px solid $border-color;
+  }
+}
+
+.overview{
+  //display: table-cell;
+  //width: 500px;
+  //margin-top: 97px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.superpowers{
+  height: 495px;
+}
+
