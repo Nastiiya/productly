@@ -1,0 +1,21 @@
+.overview{
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.superpowers{
+  height: 495px;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 74px;
+}
+
+.cards__item{
+  flex: 1 1 0;
+}
+
