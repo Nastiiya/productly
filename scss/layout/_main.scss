@@ -1,5 +1,6 @@
 .overview{
-  width: 500px;
+  //display: table-cell;
+  //width: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,4 +19,3 @@
 .cards__item{
   flex: 1 1 0;
 }
-

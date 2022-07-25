@@ -1,13 +1,6 @@
 body{
   width: $width;
   font-family: $font-primary ;
-  font-size: font-size-default;
+  font-size: $font-size-default;
   background-color: $white-default;
-}
-
-.container{
-  width: $content-width;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
 }

@@ -56,6 +56,79 @@ body {
   background-color: white;
 }
 
+.btn {
+  padding: 13px 26px;
+  text-align: center;
+  border-radius: 4px;
+  background-color: #FF9900;
+  color: white;
+  outline: none;
+  border: none;
+}
+.btn-sign-in {
+  background-color: transparent;
+  color: #2F281E;
+  border: 1px solid #BCD0E5;
+}
+.btn-sign-up-now {
+  margin: 0 auto;
+  margin-bottom: 70px;
+  display: block;
+}
+
+h1 {
+  font-size: 44px;
+  padding-bottom: 30px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+.features {
+  padding-bottom: 50px;
+  width: 539px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 69px;
+  width: 100%;
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+
+.navmenu {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  width: 352px;
+}
+
+.overview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.superpowers {
+  height: 495px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 74px;
+}
+
+.cards__item {
+  flex: 1 1 0;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -96,83 +169,6 @@ section:before {
   background: linear-gradient(0deg, rgba(255, 229, 210, 0.629261) 0.35%, rgba(255, 244, 229, 0.0001) 99.63%);
   border-radius: 0 0 50% 50%/0 0 100% 100%;
   transform: scaleX(1.5);
-}
-
-h1 {
-  font-size: 44px;
-  padding-bottom: 30px;
-}
-
-h2 {
-  font-size: 32px;
-}
-
-.features {
-  padding-bottom: 50px;
-  width: 539px;
-  text-align: center;
-  margin: 0 auto;
-}
-
-p {
-  line-height: 30px;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 69px;
-  width: 100%;
-  padding-top: 26px;
-  padding-bottom: 26px;
-}
-
-.navmenu {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-  width: 352px;
-}
-
-.btn {
-  padding: 13px 26px;
-  text-align: center;
-  border-radius: 4px;
-  background-color: #FF9900;
-  color: white;
-  outline: none;
-  border: none;
-}
-.btn-sign-in {
-  background-color: transparent;
-  color: #2F281E;
-  border: 1px solid #BCD0E5;
-}
-.btn-sign-up-now {
-  margin: 0 auto;
-  margin-bottom: 70px;
-  display: block;
-}
-
-.overview {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.superpowers {
-  height: 495px;
-}
-
-.cards {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 74px;
-}
-
-.cards__item {
-  flex: 1 1 0;
 }
 
 /*# sourceMappingURL=style.css.map */
