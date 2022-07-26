@@ -1,13 +1,9 @@
 .container{
   width: $content-width;
   margin: 0 auto;
-  margin-top: 100px;
   display: flex;
+  margin-top: 100px;
   justify-content: space-between;
-
-  &--wide{
-    width: $width;
-  }
 
   &--margin-s{
     margin-top: 0;
@@ -18,6 +14,7 @@
   }
 
   &--block{
+    position: relative;
     display: block;
     z-index: 1;
   }
@@ -25,12 +22,43 @@
   &--benefits{
     width: 525px;
   }
+
+  &--jobs{
+    width: 525px;
+  }
+  &--input{
+    width: 280px;
+  }
+}
+.container--footer ul li{
+  padding-top: 15px;
+
+}
+
+
+
+.input-number{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 25px;
+}
+
+.input-number form{
+
 }
 
 section{
   position: relative;
+  width: $width;
+}
+
+.section__wide{
+  width: $width;
   height: 510px;
 }
+
 section:before{
   content: '';
   position: absolute;

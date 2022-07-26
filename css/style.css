@@ -72,8 +72,19 @@ body {
 }
 .btn-sign-up-now {
   margin: 0 auto;
-  margin-bottom: 70px;
+  margin-bottom: 74px;
   display: block;
+}
+.btn-get-started {
+  margin-top: 20px;
+}
+.btn-footer {
+  margin-left: 0;
+}
+
+.container--jobs__padding {
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 
 h1 {
@@ -83,6 +94,10 @@ h1 {
 
 h2 {
   font-size: 32px;
+}
+
+.container--list h3 {
+  padding-bottom: 15px;
 }
 
 .features {
@@ -96,7 +111,6 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 69px;
   width: 100%;
   padding-top: 26px;
   padding-bottom: 26px;
@@ -129,15 +143,36 @@ h2 {
   flex: 1 1 0;
 }
 
+.cards__icons {
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.container--footer {
+  height: 120px;
+}
+
+.container--footer {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.container--footer__input {
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.container--footer input {
+  width: 340px;
+  height: 50px;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
-  margin-top: 100px;
   display: flex;
+  margin-top: 100px;
   justify-content: space-between;
-}
-.container--wide {
-  width: 1440px;
 }
 .container--margin-s {
   margin-top: 0;
@@ -146,15 +181,39 @@ h2 {
   margin-top: 69px;
 }
 .container--block {
+  position: relative;
   display: block;
   z-index: 1;
 }
 .container--benefits {
   width: 525px;
 }
+.container--jobs {
+  width: 525px;
+}
+.container--input {
+  width: 280px;
+}
+
+.container--footer ul li {
+  padding-top: 15px;
+}
+
+.input-number {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 25px;
+}
 
 section {
   position: relative;
+  width: 1440px;
+}
+
+.section__wide {
+  width: 1440px;
   height: 510px;
 }
 
